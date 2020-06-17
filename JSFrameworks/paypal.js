@@ -1,6 +1,6 @@
 // Uses PayPal API to create order through paypal
 function createOrder() {
-  /*
+  /* -- HTML Code --
    * <div id="paypal-button-container"></div>
    * <script src="https://www.paypal.com/sdk/js?client-id= <-- PLACE CLIENT ID FOR ACCOUNT HERE --> &currency=CAD"></script>
    */
