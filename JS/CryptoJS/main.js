@@ -27,6 +27,7 @@ function encryptAndPrint(plainText) {
 	return encrypted;
 }
 
+
 try {
 	var matt = encryptAndPrint("Matthew Ferlaino");
 	decryptAndPrint(matt);
