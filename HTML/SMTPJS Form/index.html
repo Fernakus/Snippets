@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Form Testing...</title>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Links -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <section class="section border-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mb-5 order-2">
+
+            <!-- Form -->
+            <form action="POST" method="POST" id="contactForm" name="contactForm">
+              <div style="color: red" id="form-message-warning" class="mb-4"></div>
+              <div style="color: green" id="form-message-success" class="mb-4"></div>
+              <div id="formLoader" class="mb-4"></div>
+
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" class="form-control " required>
+                </div>
+                <div class="col-md-6 form-group">
+                  <label for="phone">Phone</label>
+                  <input type="text" id="phone" class="form-control " required>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12 form-group">
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12 form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" class="form-control " required>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12 form-group">
+                  <label for="subject">Subject</label>
+                  <input type="subject" id="subject" class="form-control " required>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12 form-group">
+                  <label for="message">Message</label>
+                  <textarea name="message" id="message" class="form-control " cols="30" rows="8" required></textarea>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="submit" value="Send Message" class="btn btn-primary px-3 py-3">
+				  <div class="submitting"></div>
+                </div>
+              </div>
+
+            </form>
+          </div>
+      	</div>
+      </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js" integrity="sha256-/H4YS+7aYb9kJ5OKhFYPUjSJdrtV6AeyJOtTkw6X72o=" crossorigin="anonymous"></script>
+    <script src="js/forms.js"></script>
+
+  </body>
+</html>
