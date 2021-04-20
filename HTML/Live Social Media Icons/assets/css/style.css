@@ -1,0 +1,61 @@
+/* Minor Adjustment */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .footer-social {
+    float: left;
+    padding-top: 10px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .footer-social {
+    float: left;
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .footer-social {
+    float: left;
+    padding-top: 10px;
+  }
+}
+
+/* Social Media Styles */
+.footer-bottom-area {
+  background: #140C40;
+}
+
+.footer-bottom-area .footer-border {
+  padding: 18px 0px 4px;
+}
+
+.footer-social > a {
+  color: #fff;
+  font-size: 14px;
+  padding-left: 16px;
+
+}
+
+.footer-social > a > i {
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+  transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  -o-transform: rotateY(0deg);
+}
+
+.footer-social > a:hover i {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+}
+
+.footer-social > a:hover {
+  color: #FF3514;
+}
