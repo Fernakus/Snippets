@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Form Testing...</title>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Links -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <!--?  Contact Form  -->
+    <section class="contact-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+
+            <!-- Forms -->
+            <form class="form-contact" method="POST" id="contactForm">
+              <div class="row">
+                <!-- Success/Failure Divs -->
+                <div class="col-12">
+                  <div style="color: red" id="form-message-warning" class="mb-4"></div>
+                  <div style="color: green" id="form-message-success" class="mb-4"></div>
+                  <div id="formLoader" class="mb-4"></div>
+                </div>
+
+                <!-- Name -->
+                <div class="col-sm-6">
+                  <div class="form-group">
+                      <input class="form-control valid" name="name" id="name" type="text" placeholder="Name">
+                  </div>
+                </div>
+
+                <!-- Email -->
+                <div class="col-sm-6">
+                  <div class="form-group">
+                      <input class="form-control valid" name="email" id="email" type="email" placeholder="Email">
+                  </div>
+                </div>
+
+                <!-- Subject -->
+                <div class="col-12">
+                  <div class="form-group">
+                      <input class="form-control valid" name="subject" id="subject" type="text" placeholder="Subject">
+                  </div>
+                </div>
+
+                <!-- Message -->
+                <div class="col-12">
+                  <div class="form-group">
+                      <textarea class="form-control w-100" name="message" id="message" type="text" cols="30" rows="9" placeholder="Enter Message"></textarea>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group mt-3">
+                <input type="submit" value="Send Message" class="button button-contactForm boxed-btn">
+              </div>
+            </form>
+
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js" integrity="sha256-/H4YS+7aYb9kJ5OKhFYPUjSJdrtV6AeyJOtTkw6X72o=" crossorigin="anonymous"></script>
+    <script src="js/forms.js"></script>
+
+  </body>
+</html>
