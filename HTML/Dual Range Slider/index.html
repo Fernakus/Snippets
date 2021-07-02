@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="css/style.css">
+</head>
+  <body>
+    <section>
+        <div slider id="slider-distance">
+          <div>
+            <div id="inverseLeft" inverse-left style="width: 70%;"></div>
+            <div id="inverseRight" inverse-right style="width: 70%;"></div>
+            <div id="range" range style="left: 30%; right: 40%;"></div>
+            <span id="spanLower" thumb style="left: 30%;"></span>
+            <span id="spanHigher" thumb style="left: 60%;"></span>
+          </div>
+          
+          <input id="lowRange" type="range" tabindex="0" value="30" max="100" min="0" step="1"/>
+          <input id="highRange" type="range" tabindex="0" value="60" max="100" min="0" step="1"/>
+        </div>  
+    </section>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/js.js"></script>
+  </body>
+</html>
